@@ -19,7 +19,6 @@ class LogStash::Filters::EntropyShannon < LogStash::Filters::Base
 
   public
   def filter(event)
-    uppercase(event) if @uppercase
     entropy_check(event) if @entropy_check
     # Replace the event message with our message as configured in the
     # config file.
