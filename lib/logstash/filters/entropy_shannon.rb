@@ -10,7 +10,7 @@ class LogStash::Filters::EntropyShannon < LogStash::Filters::Base
   config_name "entropy_shannon"
   config :entropy_check, :validate => :array
   config :str_check, :validate => :array, :default => [ "rudukmada.com"]
-  config :uppercase, :validate => :array
+
 
   public
   def register
