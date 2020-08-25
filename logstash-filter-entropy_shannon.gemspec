@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary       = 'Shannon Entropy Checker'
   s.description   = 'First Test entropy checker for domain name, email etc.'
   s.homepage      = 'https://cdef.id'
-  s.authors       = ['']
+  s.authors       = ['jonitampan']
   s.email         = ''
   s.require_paths = ['lib']
 
